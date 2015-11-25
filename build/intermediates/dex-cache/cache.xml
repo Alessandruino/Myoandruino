@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Alessandruino/Downloads/BlunoBasicDemo-master/Android/BT4LEDTest/app/build/intermediates/exploded-aar/com.thalmic/myosdk/0.10.0/libs/native-libs.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d24ac9790966ffbd1bd9d921a262572c94903027">
+        <dex dex="/Users/Alessandruino/Downloads/BlunoBasicDemo-master/Android/BT4LEDTest/app/build/intermediates/pre-dexed/debug/native-libs-3dc97bd73fdd04728791a16c3e7e3f4e26337181.jar" />
+    </item>
+    <item
+        jar="/Users/Alessandruino/Downloads/BlunoBasicDemo-master/Android/BT4LEDTest/app/build/intermediates/exploded-aar/com.thalmic/myosdk/0.10.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d189db75174a41996c33bb243d2228aacf10fa53">
+        <dex dex="/Users/Alessandruino/Downloads/BlunoBasicDemo-master/Android/BT4LEDTest/app/build/intermediates/pre-dexed/debug/classes-5ececcd75251ac4cbb79025e5bb53a7a0f424e84.jar" />
+    </item>
+
+</items>
