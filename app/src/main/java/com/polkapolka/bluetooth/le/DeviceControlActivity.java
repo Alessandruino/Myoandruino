@@ -185,17 +185,29 @@ public class DeviceControlActivity extends Activity {
                 case FIST:
                     mTextView.setText(getString(R.string.pose_fist));
                     RGBFrame[0] = 255;
+                    RGBFrame[1] = 0;
+                    RGBFrame[2] = 0;
                     makeChange();
                     break;
                 case WAVE_IN:
                     mTextView.setText(getString(R.string.pose_wavein));
+                    RGBFrame[0] = 0;
+                    RGBFrame[1] = 255;
+                    RGBFrame[2] = 0;
+                    makeChange();
                     break;
                 case WAVE_OUT:
                     mTextView.setText(getString(R.string.pose_waveout));
+                    RGBFrame[0] = 0;
+                    RGBFrame[1] = 0;
+                    RGBFrame[2] = 255;
+                    makeChange();
                     break;
                 case FINGERS_SPREAD:
                     mTextView.setText(getString(R.string.pose_fingersspread));
                     RGBFrame[0] = 0;
+                    RGBFrame[1] = 0;
+                    RGBFrame[2] = 0;
                     makeChange();
                     break;
             }
